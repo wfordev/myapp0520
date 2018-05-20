@@ -8,24 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		E027902020B20A8300041655 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E027901F20B20A8300041655 /* AppDelegate.m */; };
-		E027902320B20A8300041655 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E027902220B20A8300041655 /* ViewController.m */; };
 		E027902620B20A8300041655 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E027902420B20A8300041655 /* Main.storyboard */; };
 		E027902820B20A8300041655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E027902720B20A8300041655 /* Assets.xcassets */; };
 		E027902B20B20A8300041655 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E027902920B20A8300041655 /* LaunchScreen.storyboard */; };
 		E027902E20B20A8300041655 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E027902D20B20A8300041655 /* main.m */; };
+		E027903920B20B3A00041655 /* reloadButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E027903420B20B3A00041655 /* reloadButton.png */; };
+		E027903A20B20B3A00041655 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E027903520B20B3A00041655 /* ViewController.m */; };
+		E027903B20B20B3A00041655 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E027903720B20B3A00041655 /* MainTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E027901B20B20A8300041655 /* TableViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E027901E20B20A8300041655 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E027901F20B20A8300041655 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E027902120B20A8300041655 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E027902220B20A8300041655 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E027902520B20A8300041655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E027902720B20A8300041655 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E027902A20B20A8300041655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E027902C20B20A8300041655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E027902D20B20A8300041655 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E027903420B20B3A00041655 /* reloadButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reloadButton.png; sourceTree = "<group>"; };
+		E027903520B20B3A00041655 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E027903620B20B3A00041655 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		E027903720B20B3A00041655 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		E027903820B20B3A00041655 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +65,11 @@
 			children = (
 				E027901E20B20A8300041655 /* AppDelegate.h */,
 				E027901F20B20A8300041655 /* AppDelegate.m */,
-				E027902120B20A8300041655 /* ViewController.h */,
-				E027902220B20A8300041655 /* ViewController.m */,
+				E027903620B20B3A00041655 /* MainTableViewController.h */,
+				E027903720B20B3A00041655 /* MainTableViewController.m */,
+				E027903420B20B3A00041655 /* reloadButton.png */,
+				E027903820B20B3A00041655 /* ViewController.h */,
+				E027903520B20B3A00041655 /* ViewController.m */,
 				E027902420B20A8300041655 /* Main.storyboard */,
 				E027902720B20A8300041655 /* Assets.xcassets */,
 				E027902920B20A8300041655 /* LaunchScreen.storyboard */,
@@ -131,6 +139,7 @@
 			files = (
 				E027902B20B20A8300041655 /* LaunchScreen.storyboard in Resources */,
 				E027902820B20A8300041655 /* Assets.xcassets in Resources */,
+				E027903920B20B3A00041655 /* reloadButton.png in Resources */,
 				E027902620B20A8300041655 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,7 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E027902320B20A8300041655 /* ViewController.m in Sources */,
+				E027903B20B20B3A00041655 /* MainTableViewController.m in Sources */,
+				E027903A20B20B3A00041655 /* ViewController.m in Sources */,
 				E027902E20B20A8300041655 /* main.m in Sources */,
 				E027902020B20A8300041655 /* AppDelegate.m in Sources */,
 			);
@@ -279,7 +289,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TXYC8UFM49;
 				INFOPLIST_FILE = TableViewApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = myapp.TableViewApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,7 +304,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TXYC8UFM49;
 				INFOPLIST_FILE = TableViewApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = myapp.TableViewApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
